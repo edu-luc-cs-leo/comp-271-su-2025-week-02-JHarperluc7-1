@@ -190,8 +190,30 @@ public class MinHeap {
     /**
      * THIS IS YOUR ASSIGNMENT
      */
-    private void heapifyUp() {
-    } // method heapifyUp
+    /**
+ * Restores the min-heap property after adding a new element.
+ * This method moves the newly added element "up" the heap
+ * until it is in the correct position (i.e., not smaller than its parent).
+ * It ensures that the heap maintains its ordering properties.
+ */
+private void heapifyUp() {
+    // Start with the index of the new value (last used spot)
+    int child = this.usage - 1;
+
+    // Get the parent index of the new value
+    int parent = parent(child);
+
+    // Keep swapping while the parent is bigger than the child
+    while (child > 0 && this.underlying[parent] > this.underlying[child]) {
+        // Swap parent and child
+        swap(parent, child);
+
+        // Move up the tree
+        child = parent;
+        parent = parent(child);
+    }
+}
+ // method heapifyUp
 
     /**
      * This method is called after we remove the smallest element from the
