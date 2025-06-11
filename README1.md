@@ -7,8 +7,6 @@
 - We both have a method to add a new value
 - Both versions print out the array before and after removing the smallest value
 
----
-
 # What Could be Improved On Or Is Diff.
 
 - I added extra versions of the getSmallest() to handle empty arrays 
