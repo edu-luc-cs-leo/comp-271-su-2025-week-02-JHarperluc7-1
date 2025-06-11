@@ -21,6 +21,6 @@
 
 # General Thoughts
 
-I'm trying to balance a lot right now between work and class, but I care about doing this right. Even when things feel a little chaotic, I want to be consistent and honest with myself and my work. I need to focus on how small details — like making something `private` or handling empty arrays — really matter in code.
+I'm trying to balance a lot right now between work and class, but I care about doing this right. Even when things feel a little chaotic, I want to be consistent and honest with myself and my work. I need to focus on how small details — like making something `private` or handling empty arrays — really affect the deminsions of what I am creating. 
 
 – Julia
